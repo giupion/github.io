@@ -21,3 +21,17 @@ header, section, footer {
     z-index: 1; /* Imposta un indice superiore per il contenuto */
     padding: 20px;
 }
+
+
+header, section, footer {
+    color: white; /* Colore del testo bianco per header, section e footer */
+}
+
+a {
+    color: white; /* Colore dei link in bianco */
+    text-decoration: none; /* Rimuove la sottolineatura dai link */
+}
+
+a:hover {
+    text-decoration: underline; /* Aggiunge sottolineatura al passaggio del mouse */
+}
