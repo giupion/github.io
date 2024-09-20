@@ -18,6 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function draw() {
+        if (!ctx) {
+            console.error('Context is not defined');
+            return; // Early return if ctx is not available
+        }
+
         ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         ctx.fillStyle = '#0F0';
