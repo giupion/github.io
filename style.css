@@ -1,6 +1,6 @@
 body {
-    background-color: #000; /* Sfondo nero */
-    color: #00ff00; /* Testo verde Matrix */
+    background-color: black;
+    color:rgba(248, 252, 248, 0.8) !important;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
