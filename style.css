@@ -28,12 +28,27 @@ header {
     z-index: 1;
 }
 
-/* Sezioni */
+/* Main Content */
 main {
     position: relative;
     z-index: 1;
     padding: 20px;
     text-align: center; /* Centra il contenuto delle sezioni */
+}
+
+/* Sezioni */
+section {
+    padding: 40px 20px; /* Padding per lo spazio sopra e sotto */
+}
+
+section h2 {
+    font-size: 2.5em; /* Ingrandisce i titoli delle sezioni */
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.5em; /* Ingrandisce il testo dei paragrafi */
+    line-height: 1.6; /* Migliora la leggibilità */
 }
 
 /* Footer */
