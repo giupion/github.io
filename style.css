@@ -135,12 +135,12 @@ li {
 /* Stile per il testo "Contattami:" */
 .contact-title {
     background-color: black; /* Sfondo nero */
-    color: #00ff00; /* Testo verde neon */
+    color: #fdfdfd; 
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
     
 
-    box-shadow: 0 0 5px #00ff00, 0 0 15px #00ff00, 0 0 30px #00ff00; /* Bagliore verde */
+    box-shadow: 0 0 5px #fdfdfd, 0 0 15px #ffffff, 0 0 30px #ffffff; /* Bagliore verde */
     margin-bottom: 10px; /* Spazio sotto il titolo */
 }
