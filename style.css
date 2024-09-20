@@ -10,7 +10,7 @@ body {
 
 /* Canvas */
 canvas {
-    position: fixed; /* Fissa il canvas per coprire l'intera finestra */
+    position: absolute; /* Cambia a absolute per non bloccare lo scrolling */
     top: 0;
     left: 0;
     width: 100%;
