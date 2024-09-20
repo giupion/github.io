@@ -1,6 +1,5 @@
 const canvas = document.getElementById('matrixCanvas');
 const ctx = canvas.getContext('2d');
-
 canvas.height = window.innerHeight;
 canvas.width = window.innerWidth;
 
@@ -14,7 +13,6 @@ function draw() {
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = '#0F0'; // Colore del testo
     ctx.font = fontSize + 'px monospace';
-    
     drops.forEach((drop, index) => {
         const text = letters[Math.floor(Math.random() * letters.length)];
         ctx.fillText(text, index * fontSize, drop * fontSize);
@@ -26,9 +24,3 @@ function draw() {
 }
 
 setInterval(draw, 33); // Aggiorna il disegno ogni 33 ms
-
-// Riprogramma il canvas quando la finestra cambia dimensione
-window.addEventListener('resize', () => {
-    canvas.height = window.innerHeight;
-    canvas.width = window.innerWidth;
-});
