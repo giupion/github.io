@@ -5,11 +5,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
+    overflow: auto; /* Permette lo scrolling */
 }
 
 /* Canvas */
 canvas {
-    position: absolute; /* Cambiato da fixed a absolute */
+    position: fixed; /* Fissa il canvas per coprire l'intera finestra */
     top: 0;
     left: 0;
     width: 100%;
