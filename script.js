@@ -12,7 +12,7 @@ const drops = Array.from({ length: columns }).fill(1);
 function draw() {
     ctx.fillStyle = 'rgba(0, 0, 0, 0.05)'; // Sfondo trasparente
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = '#0F0'; // Colore del testo
+    ctx.fillStyle = '#0F0'; // Colore del testo verde matrix
     ctx.font = fontSize + 'px monospace';
     
     drops.forEach((drop, index) => {
