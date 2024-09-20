@@ -51,11 +51,15 @@ nav a:hover {
 }
 
 /* Sezioni */
-section {
+main {
     position: relative;
     z-index: 1;
     padding: 20px;
     text-align: center; /* Centra il contenuto delle sezioni */
+}
+
+section {
+    margin: 40px 0; /* Margine tra le sezioni */
 }
 
 section h2 {
