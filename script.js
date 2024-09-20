@@ -5,13 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function resizeCanvas() {
         canvas.height = window.innerHeight;
         canvas.width = window.innerWidth;
+        initDrops(); // Initialize drops on resize
     }
-
-    resizeCanvas();
-    window.addEventListener('resize', () => {
-        resizeCanvas();
-        initDrops();
-    });
 
     const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
     const fontSize = 10;
@@ -21,8 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
         columns = Math.floor(canvas.width / fontSize);
         drops = Array(columns).fill(1);
     }
-
-    initDrops();
 
     function draw() {
         ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
@@ -41,5 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    resizeCanvas(); // Initial call to set up canvas and drops
     setInterval(draw, 33);
+    window.addEventListener('resize', resizeCanvas);
 });
