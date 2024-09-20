@@ -1,46 +1,28 @@
 body {
     background-color: black;
-    color: #FFF; /* Colore del testo */
+    color: white; /* Testo bianco per la leggibilità */
     font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
-    margin: 0;
-    padding: 0;
+    position: relative;
 }
 
 canvas {
-    position: fixed; /* Fissa il canvas per coprire l'intera finestra */
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
     z-index: -1; /* Porta il canvas dietro il contenuto */
 }
 
-header, section, footer {
-    position: relative; /* Assicura che il contenuto sia in primo piano */
-    z-index: 1; /* Imposta un indice superiore per il contenuto */
-    padding: 20px;
-    color: white; /* Colore del testo bianco per header, section e footer */
+header, footer, section {
+    position: relative; /* Necessario per garantire la sovrapposizione corretta */
+    z-index: 1; /* Porta il testo sopra il canvas */
 }
 
 a {
-    color: white; /* Colore dei link in bianco */
-    text-decoration: none; /* Rimuove la sottolineatura dai link */
+    color: #0F0; /* Verde Matrix per i link */
+    text-decoration: none; /* Rimuove la sottolineatura */
 }
 
 a:hover {
-    text-decoration: underline; /* Aggiunge sottolineatura al passaggio del mouse */
-}
-
-h1, h2 {
-    margin: 0; /* Rimuove margine predefinito per i titoli */
-}
-
-ul {
-    list-style: none; /* Rimuove il punto elenco */
-    padding: 0; /* Rimuove il padding predefinito */
-}
-
-li {
-    margin-bottom: 10px; /* Spaziatura tra gli elementi della lista */
+    text-decoration: underline; /* Aggiunge la sottolineatura al passaggio del mouse */
 }
