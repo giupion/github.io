@@ -9,7 +9,7 @@ body {
 
 /* Canvas */
 canvas {
-    position: fixed; /* Fissa il canvas per coprire l'intera finestra */
+    position: absolute; /* Cambiato da fixed a absolute */
     top: 0;
     left: 0;
     width: 100%;
