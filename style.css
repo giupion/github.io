@@ -66,15 +66,30 @@ a:hover {
     color: #00ff00; /* Mantiene il verde Matrix */
 }
 
-/* Stili per il form (input e textarea) */
+/* Stili per il form (input, textarea e bottone) */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Spaziatura tra i campi del form */
+}
+
 input[type="email"], textarea {
     background-color: black;
     color: #00ff00; /* Testo verde Matrix */
     border: 2px solid #00ff00; /* Bordo verde Matrix */
     padding: 10px;
-    width: 100%;
+    width: 100%; /* Imposta la larghezza al 100% */
+    max-width: 600px; /* Larghezza massima */
     margin-bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box; /* Include padding e bordi nella larghezza */
+}
+
+/* Imposta l'altezza della textarea */
+textarea {
+    height: 150px; /* Altezza textarea */
+    resize: none; /* Evita il ridimensionamento */
 }
 
 /* Stile per il pulsante "Invia" */
@@ -90,6 +105,8 @@ input[type="email"], textarea {
     border-radius: 5px;
     transition: all 0.3s ease;
     box-shadow: 0 0 5px #00ff00, 0 0 15px #00ff00, 0 0 30px #00ff00; /* Bagliore verde */
+    width: 100%; /* Imposta la larghezza uguale a input e textarea */
+    max-width: 600px; /* Larghezza massima */
 }
 
 #matrix-button:hover {
