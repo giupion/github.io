@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color:rgba(0, 255, 0, 0.8) !important;
+    color:rgba(248, 252, 248, 0.8) !important;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
@@ -25,7 +25,7 @@ body {
 }
 
 header, main, footer {
-    background-color: rgba(50, 50, 50, 0.8);
+    background-color: rgba(0, 50, 0, 0.5);
     padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -42,13 +42,13 @@ header h1 {
 }
 
 nav a {
-    color:rgba(0, 255, 0, 0.8) !important;
+    color:rgba(245, 248, 245, 0.8) !important;
     margin: 0 10px;
     text-decoration: none;
 }
 
 h1, h2 {
-    color: rgba(0, 255, 0, 0.8) !important;
+    color: rgba(243, 245, 243, 0.8) !important;
     margin-top: 0;
 }
 
@@ -62,7 +62,7 @@ li {
 }
 
 a {
-    color:rgba(0, 255, 0, 0.8) !important;
+    color:rgba(242, 247, 242, 0.8) !important;
     text-decoration: none;
 }
 
