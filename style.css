@@ -1,12 +1,12 @@
 /* Imposta sfondo nero e testo verde per tutto il corpo della pagina */
 body {
     background-color: black;
-    color: #00ff00; /* Testo verde Matrix */
+    color: #f8faf8; /* Testo verde Matrix */
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00; /* Effetto neon verde */
+    text-shadow: 0 0 5px #f5f8f5, 0 0 10px #f2f5f2; /* Effetto neon verde */
 }
 
 /* Stili per il canvas in background */
@@ -26,7 +26,7 @@ body {
     padding: 10px;
     max-width: 800px;
     margin: 0 auto;
-    color: #00ff00; /* Testo verde Matrix */
+    color: #f8fcf8; /* Testo verde Matrix */
 }
 
 /* Stili per sezioni di header, main, footer */
@@ -35,35 +35,35 @@ header, main, footer {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    color: #00ff00; /* Testo verde Matrix */
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00; /* Effetto neon */
+    color: #f9fcf9; /* Testo verde Matrix */
+    text-shadow: 0 0 5px #f6f8f6, 0 0 10px #f7faf7; /* Effetto neon */
 }
 
 /* Stile per i titoli */
 h1, h2 {
-    color: #00ff00; /* Verde Matrix */
+    color: #f6f8f6; /* Verde Matrix */
     margin-top: 0;
-    text-shadow: 0 0 5px #00ff00, 0 0 15px #00ff00; /* Effetto neon più forte */
+    text-shadow: 0 0 5px #f8faf8, 0 0 15px #f4f7f4; /* Effetto neon più forte */
 }
 
 /* Stile per paragrafi */
 p {
-    color: #00ff00; /* Testo verde Matrix */
+    color: #f5f9f5; /* Testo verde Matrix */
     margin-bottom: 1.5em;
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00; /* Effetto neon */
+    text-shadow: 0 0 5px #f3f7f3, 0 0 10px #d5d7d5; /* Effetto neon */
 }
 
 /* Stile per link nel menu di navigazione e nell'intera pagina */
 nav a, a {
-    color: #00ff00; /* Colore verde Matrix */
+    color: #cdd3cd; /* Colore verde Matrix */
     margin: 0 10px;
     text-decoration: none;
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00; /* Effetto neon */
+    text-shadow: 0 0 5px #d0d0d0, 0 0 10px #00ff00; /* Effetto neon */
 }
 
 a:hover {
     text-decoration: underline;
-    color: #00ff00; /* Mantiene il verde Matrix */
+    color: #d4d6d4; /* Mantiene il verde Matrix */
 }
 
 /* Stili per il form con Flexbox per allineare gli elementi in orizzontale */
