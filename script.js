@@ -1,3 +1,25 @@
+const canvas = document.getElementById('matrixCanvas');
+const ctx = canvas.getContext('2d');
+
+function resizeCanvas() {
+    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth;
+}
+
+resizeCanvas();
+window.addEventListener('resize', resizeCanvas);
+
+const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+const fontSize = 10;
+const columns = canvas.width / fontSize;
+let drops = [];
+
+function initDrops() {
+    drops = Array(Math.ceil(columns)).fill(1);
+}
+
+initDrops();
+
 function draw() {
     ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
