@@ -1,12 +1,12 @@
-/* Imposta sfondo nero e testo verde per tutto il corpo della pagina */
+/* Imposta sfondo nero e testo bianco per tutto il corpo della pagina */
 body {
     background-color: black;
-    color: #f8faf8; /* Testo verde Matrix */
+    color: #ffffff; /* Testo bianco */
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    text-shadow: 0 0 5px #f5f8f5, 0 0 10px #f2f5f2; /* Effetto neon verde */
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff; /* Effetto neon bianco */
 }
 
 /* Stili per il canvas in background */
@@ -26,44 +26,44 @@ body {
     padding: 10px;
     max-width: 800px;
     margin: 0 auto;
-    color: #f8fcf8; /* Testo verde Matrix */
+    color: #ffffff; /* Testo bianco */
 }
 
 /* Stili per sezioni di header, main, footer */
 header, main, footer {
-    background-color: rgba(0, 50, 0, 0.5); /* Sfondo scuro trasparente */
+    background-color: rgba(0, 0, 0, 0.5); /* Sfondo scuro trasparente */
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    color: #f9fcf9; /* Testo verde Matrix */
-    text-shadow: 0 0 5px #f6f8f6, 0 0 10px #f7faf7; /* Effetto neon */
+    color: #ffffff; /* Testo bianco */
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff; /* Effetto neon */
 }
 
 /* Stile per i titoli */
 h1, h2 {
-    color: #f6f8f6; /* Verde Matrix */
+    color: #ffffff; /* Bianco */
     margin-top: 0;
-    text-shadow: 0 0 5px #f8faf8, 0 0 15px #f4f7f4; /* Effetto neon più forte */
+    text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff; /* Effetto neon più forte */
 }
 
 /* Stile per paragrafi */
 p {
-    color: #f5f9f5; /* Testo verde Matrix */
+    color: #ffffff; /* Testo bianco */
     margin-bottom: 1.5em;
-    text-shadow: 0 0 5px #f3f7f3, 0 0 10px #d5d7d5; /* Effetto neon */
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff; /* Effetto neon */
 }
 
 /* Stile per link nel menu di navigazione e nell'intera pagina */
 nav a, a {
-    color: #cdd3cd; /* Colore verde Matrix */
+    color: #ffffff; /* Colore bianco */
     margin: 0 10px;
     text-decoration: none;
-    text-shadow: 0 0 5px #d0d0d0, 0 0 10px #00ff00; /* Effetto neon */
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff; /* Effetto neon */
 }
 
 a:hover {
     text-decoration: underline;
-    color: #d4d6d4; /* Mantiene il verde Matrix */
+    color: #ffffff; /* Mantiene il bianco */
 }
 
 /* Stili per il form con Flexbox per allineare gli elementi in orizzontale */
@@ -77,8 +77,8 @@ form {
 /* Stili per input e textarea */
 input[type="email"], textarea {
     background-color: black;
-    color: #00ff00; /* Testo verde Matrix */
-    border: 2px solid #00ff00; /* Bordo verde Matrix */
+    color: #00ff00; /* Testo verde neon */
+    border: 2px solid #00ff00; /* Bordo verde neon */
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box; /* Include padding e bordi nella larghezza */
@@ -95,8 +95,8 @@ textarea {
 /* Stile per il pulsante "Invia" */
 #matrix-button {
     background-color: #000; /* Sfondo nero */
-    color: #00ff00; /* Testo verde Matrix */
-    border: 2px solid #00ff00; /* Bordo verde Matrix */
+    color: #00ff00; /* Testo verde neon */
+    border: 2px solid #00ff00; /* Bordo verde neon */
     padding: 10px 20px;
     font-size: 16px;
     text-transform: uppercase;
@@ -123,10 +123,10 @@ textarea {
 ul {
     list-style-type: none;
     padding: 0;
-    color: #00ff00; /* Testo verde Matrix */
+    color: #ffffff; /* Testo bianco */
 }
 
 li {
     margin-bottom: 5px;
-    color: #00ff00;
+    color: #ffffff;
 }
