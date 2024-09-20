@@ -1,10 +1,13 @@
 body {
     background-color: black;
-    color: #0F0;
+    color: #00FF00;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 #matrixCanvas {
@@ -17,35 +20,34 @@ body {
 }
 
 .content {
-    position: relative;
+    flex-grow: 1;
     z-index: 1;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-header, main, footer {
-    background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
 }
 
 header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
     text-align: center;
 }
 
-main {
-    flex-grow: 1;
+header h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
 }
 
 nav a {
-    color: #0F0;
+    color: #00FF00;
     margin: 0 10px;
     text-decoration: none;
 }
 
+main {
+    padding: 20px 0;
+}
+
 h1, h2 {
-    color: #0F0;
-    margin-top: 0;
+    color: #00FF00;
 }
 
 ul {
@@ -58,9 +60,12 @@ li {
 }
 
 a {
-    color: #0F0;
+    color: #00FF00;
 }
 
 footer {
+    background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
+    padding: 10px 20px;
+    z-index: 1;
 }
