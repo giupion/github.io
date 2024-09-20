@@ -23,19 +23,6 @@ function draw() {
         }
         drops[index]++;
     });
-
-    // Disegna il testo delle sezioni sopra il canvas
-    ctx.fillStyle = '#FFF'; // Colore del testo bianco
-    ctx.font = '20px Arial';
-    ctx.fillText("Benvenuti nel Portfolio di Giuseppe Sansone", 20, 50);
-    ctx.fillText("Ciao! Sono Giuseppe", 20, 100);
-    ctx.fillText("Sviluppatore appassionato di progetti.", 20, 130);
-    ctx.fillText("Progetti GitHub:", 20, 170);
-    ctx.fillText("1. Capstone", 20, 200);
-    ctx.fillText("2. pokemorra", 20, 220);
-    ctx.fillText("3. Progetto 3", 20, 240);
-    ctx.fillText("4. B&B", 20, 260);
-    ctx.fillText("5. Epicode page for Mobile", 20, 280);
 }
 
 setInterval(draw, 33); // Aggiorna il disegno ogni 33 ms

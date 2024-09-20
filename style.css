@@ -32,7 +32,6 @@ a:hover {
     text-decoration: underline; /* Aggiunge sottolineatura al passaggio del mouse */
 }
 
-/* Ulteriore ottimizzazione */
 h1, h2 {
     margin: 0; /* Rimuove margine predefinito per i titoli */
 }
