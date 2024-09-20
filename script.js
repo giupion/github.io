@@ -7,7 +7,7 @@ const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 const fontSize = 10;
 const columns = canvas.width / fontSize;
 const drops = Array.from({ length: columns }).fill(1);
-
+//
 function draw() {
     ctx.fillStyle = 'rgba(0, 0, 0, 0.05)'; // Sfondo trasparente
     ctx.fillRect(0, 0, canvas.width, canvas.height);
