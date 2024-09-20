@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: #0F0; /* Verde Matrix */
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    position: relative;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Porta il canvas dietro il contenuto */
+}
