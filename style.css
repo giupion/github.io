@@ -82,25 +82,25 @@ p {
 
 
 .matrix-button {
-    background-color: #000 !important; /* Sfondo nero */
-    color: #00ff00 !important; /* Testo verde Matrix */
-    border: 2px solid #00ff00 !important; /* Bordo verde */
-    padding: 10px 20px !important;
-    font-size: 16px !important;
-    text-transform: uppercase !important;
-    font-weight: bold !important;
-    cursor: pointer !important;
-    border-radius: 5px !important;
-    transition: all 0.3s ease !important;
-    box-shadow: 0 0 5px #00ff00, 0 0 15px #00ff00, 0 0 30px #00ff00 !important; /* Bagliore verde */
+    background-color: #000; /* Sfondo nero */
+    color: #00ff00; /* Testo verde Matrix */
+    border: 2px solid #00ff00; /* Bordo verde */
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px #00ff00, 0 0 15px #00ff00, 0 0 30px #00ff00; /* Bagliore verde */
 }
 
 .matrix-button:hover {
-    background-color: #00ff00 !important; /* Cambia lo sfondo a verde Matrix */
-    color: #000 !important; /* Testo nero */
-    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00 !important; /* Effetto glow più forte */
+    background-color: #00ff00; /* Cambia lo sfondo a verde Matrix */
+    color: #000; /* Testo nero */
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00; /* Effetto glow più forte */
 }
 
 .matrix-button:active {
-    transform: scale(0.95) !important; /* Effetto click */
+    transform: scale(0.95); /* Effetto click */
 }
