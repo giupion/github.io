@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: #0F0; /* Verde Matrix */
+    color: white; /* Testo bianco per la leggibilità */
     font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
     position: relative;
@@ -11,4 +11,18 @@ canvas {
     top: 0;
     left: 0;
     z-index: -1; /* Porta il canvas dietro il contenuto */
+}
+
+header, footer, section {
+    position: relative; /* Necessario per garantire la sovrapposizione corretta */
+    z-index: 1; /* Porta il testo sopra il canvas */
+}
+
+a {
+    color: #0F0; /* Verde Matrix per i link */
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+a:hover {
+    text-decoration: underline; /* Aggiunge la sottolineatura al passaggio del mouse */
 }
