@@ -1,4 +1,3 @@
-/* Imposta sfondo nero e testo verde per tutto il corpo della pagina */
 body {
     background-color: #000; /* Sfondo nero */
     color: #00ff00; /* Testo verde Matrix */
@@ -8,7 +7,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Stili per il canvas in background */
 #matrixCanvas {
     position: fixed;
     top: 0;
@@ -18,64 +16,69 @@ body {
     z-index: -1;
 }
 
-/* Stili per la struttura della pagina */
 .content {
     position: relative;
     z-index: 1;
     padding: 10px;
     max-width: 800px;
     margin: 0 auto;
-    color: #00ff00; /* Testo verde Matrix */
 }
 
 header, main, footer {
-    background-color: rgba(0, 50, 0, 0.5); /* Sfondo trasparente */
+    background-color: rgba(0, 50, 0, 0.5);
     padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
-/* Stile per i titoli */
-h1, h2 {
-    color: #00ff00; /* Colore verde Matrix */
-    margin-top: 0;
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00; /* Effetto neon */
+
+header {
+    text-align: center;
 }
 
-/* Stile per i paragrafi */
-p {
-    color: #00ff00; /* Testo verde Matrix */
-    margin-bottom: 1.5em;
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00; /* Effetto neon */
+header h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
 }
 
-/* Stile per i link nel menu di navigazione */
 nav a {
-    color: #00ff00; /* Colore verde Matrix */
+    color:rgba(245, 248, 245, 0.8) !important;
     margin: 0 10px;
     text-decoration: none;
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00; /* Effetto neon */
 }
 
-/* Hover per i link */
+h1, h2 {
+    color: rgba(243, 245, 243, 0.8) !important;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color:rgba(242, 247, 242, 0.8) !important;
+    text-decoration: none;
+}
+
 a:hover {
     text-decoration: underline;
-    color: #00ff00; /* Mantiene il colore Matrix */
 }
 
-/* Stili per il form */
-input[type="email"], textarea {
-    background-color: black;
-    color: #00ff00; /* Testo verde Matrix */
-    border: 2px solid #00ff00; /* Bordo verde Matrix */
-    padding: 10px;
-    width: 100%;
-    margin-bottom: 10px;
-    font-family: 'Courier New', Courier, monospace;
+footer {
+    text-align: center;
+    font-size: 0.9em;
 }
 
 
-
+p {
+    margin-bottom: 1.5em; /* Aggiusta il valore per modificare la distanza */
+}
 
 
 #matrix-button {
