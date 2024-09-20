@@ -20,10 +20,6 @@ header, section, footer {
     position: relative; /* Assicura che il contenuto sia in primo piano */
     z-index: 1; /* Imposta un indice superiore per il contenuto */
     padding: 20px;
-}
-
-
-header, section, footer {
     color: white; /* Colore del testo bianco per header, section e footer */
 }
 
@@ -34,4 +30,18 @@ a {
 
 a:hover {
     text-decoration: underline; /* Aggiunge sottolineatura al passaggio del mouse */
+}
+
+/* Ulteriore ottimizzazione */
+h1, h2 {
+    margin: 0; /* Rimuove margine predefinito per i titoli */
+}
+
+ul {
+    list-style: none; /* Rimuove il punto elenco */
+    padding: 0; /* Rimuove il padding predefinito */
+}
+
+li {
+    margin-bottom: 10px; /* Spaziatura tra gli elementi della lista */
 }
