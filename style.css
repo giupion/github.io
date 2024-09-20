@@ -5,7 +5,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 /* Canvas */
@@ -21,10 +20,12 @@ canvas {
 /* Header */
 header {
     position: relative;
-    text-align: center; /* Centra il testo dell'header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Occupa tutta l'altezza della finestra */
     z-index: 1;
-    padding: 0; /* Rimuove padding extra */
-    margin-top: 0; /* Rimuove la banda nera sopra */
 }
 
 header h1 {
@@ -71,9 +72,9 @@ section p {
 footer {
     position: relative;
     z-index: 1;
-    padding: 10px;
+    padding: 20px; /* Aggiunta di padding per visibilità */
     text-align: center; /* Centra il contenuto del footer */
-    color: white;
+    background-color: black; /* Colore di sfondo per il footer */
 }
 
 footer p {
