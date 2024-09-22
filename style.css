@@ -77,8 +77,8 @@ form {
 /* Stili per input e textarea */
 input[type="email"], textarea {
     background-color: black;
-    color: #00ff00; /* Testo verde neon */
-    border: 2px solid #00ff00; /* Bordo verde neon */
+    color: #ffffff; /* Testo verde neon */
+    border: 2px solid #f6f9f6; /* Bordo verde neon */
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box; /* Include padding e bordi nella larghezza */
@@ -95,8 +95,8 @@ textarea {
 /* Stile per il pulsante "Invia" */
 #matrix-button {
     background-color: #000; /* Sfondo nero */
-    color: #00ff00; /* Testo verde neon */
-    border: 2px solid #00ff00; /* Bordo verde neon */
+    color: #fbfdfb; /* Testo verde neon */
+    border: 2px solid #f5f7f5; /* Bordo verde neon */
     padding: 10px 20px;
     font-size: 16px;
     text-transform: uppercase;
